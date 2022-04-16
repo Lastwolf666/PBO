@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T12:46:26.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="lcd6icVrWq2bdmX5DJzP" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T12:48:47.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="q1ILFDPK_8_spvc5rWjp" version="17.4.4" type="github">
   <diagram id="F71m29CB74n-U9nEli6I" name="Page-1">
     <mxGraphModel dx="845" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,10 +29,10 @@
           <mxGeometry y="30" width="160" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="PNu_53gXIWGpvinKZIBv-9" value="PO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="310" y="350" width="160" height="140" as="geometry" />
+          <mxGeometry x="310" y="340" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-10" value="# po_id&#xa;* tanggal PO&#xa;* quantity&#xa;0 tanggal diterima&#xa;0 quantity diterima&#xa;* harga modal &lt;FK&gt;&#xa;* nama &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-9">
-          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        <mxCell id="PNu_53gXIWGpvinKZIBv-10" value="# po_id&#xa;* tanggal PO&#xa;* quantity&#xa;0 tanggal diterima&#xa;0 quantity diterima&#xa;* harga modal &lt;FK&gt;&#xa;* nama &lt;FK&gt;&#xa;* pembayaran_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-9">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PNu_53gXIWGpvinKZIBv-11" value="alamat suplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="550" y="150" width="160" height="160" as="geometry" />
@@ -140,6 +140,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="650" as="sourcePoint" />
             <mxPoint x="740" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-40" value="pembayaran" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-41" value="# pembayaran_id&#xa;0 tunai&#xa;0 kredit&#xa;0 transfer" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-40">
+          <mxGeometry y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
