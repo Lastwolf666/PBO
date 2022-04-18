@@ -1,163 +1,253 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T13:14:22.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="2d5NKoYrOOkCu9_OpM0q" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T01:37:34.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="qvSfTS1xmhpktJT7aPUJ" version="17.4.5" type="github">
   <diagram id="F71m29CB74n-U9nEli6I" name="Page-1">
-    <mxGraphModel dx="845" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="845" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PNu_53gXIWGpvinKZIBv-1" value="Produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-1" value="Produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="170" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-2" value="# produk_id&#xa;*barcode&#xa;* dimensi&#xa;* kategori_id &lt;FK&gt;&#xa;* Price_id &lt;FK&gt;&#xa;* nama" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-2" value="# produk_id&#xa;*barcode&#xa;* dimensi&#xa;* kategori_id &lt;FK&gt;&#xa;* Price_id &lt;FK&gt;&#xa;* nama" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-1" vertex="1">
           <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-3" value="price" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-3" value="price" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="360" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-4" value="# price_id&#xa;* HargaModal&#xa;* HargaJual" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-3">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-4" value="# price_id&#xa;* HargaModal&#xa;* HargaJual" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-3" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-5" value="kategori" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-5" value="kategori" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="10" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-6" value="# kategori_id&#xa;* deskripsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-5">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-6" value="# kategori_id&#xa;* deskripsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-5" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-7" value="suplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-7" value="suplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="310" y="166.25" width="160" height="127.5" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-8" value="# suplier_id&#xa;* nama&#xa;0 CV/PT&#xa;* kontak&#xa;0 PKP&#xa;* alamat_suplier_id &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-7">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-8" value="# suplier_id&#xa;* nama&#xa;0 CV/PT&#xa;* kontak&#xa;0 PKP&#xa;* alamat_suplier_id &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-7" vertex="1">
           <mxGeometry y="30" width="160" height="97.5" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-9" value="PO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-9" value="PO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="310" y="310" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-10" value="# po_id&#xa;* tanggal PO&#xa;* quantity&#xa;0 tanggal diterima&#xa;0 quantity diterima&#xa;* harga modal &lt;FK&gt;&#xa;* nama &lt;FK&gt;&#xa;* pembayaran_id&lt;FK&gt;&#xa;* produk_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-9">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-10" value="# po_id&#xa;* tanggal PO&#xa;* quantity&#xa;0 tanggal diterima&#xa;0 quantity diterima&#xa;* harga modal &lt;FK&gt;&#xa;* nama &lt;FK&gt;&#xa;* pembayaran_id&lt;FK&gt;&#xa;* produk_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-9" vertex="1">
           <mxGeometry y="30" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-11" value="alamat suplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-11" value="alamat suplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="550" y="150" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-12" value="# alamat_suplier_id&#xa;* nomor jalan&#xa;* RT&#xa;* RW&#xa;* kecamatan&#xa;* kota&#xa;* provinsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-11">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-12" value="# alamat_suplier_id&#xa;* nomor jalan&#xa;* RT&#xa;* RW&#xa;* kecamatan&#xa;* kota&#xa;* provinsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-11" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-1" target="PNu_53gXIWGpvinKZIBv-5">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-1" target="PNu_53gXIWGpvinKZIBv-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="250" as="sourcePoint" />
             <mxPoint x="460" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-1" target="PNu_53gXIWGpvinKZIBv-3">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-1" target="PNu_53gXIWGpvinKZIBv-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="350" as="sourcePoint" />
             <mxPoint x="460" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-7" target="PNu_53gXIWGpvinKZIBv-1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-7" target="PNu_53gXIWGpvinKZIBv-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="350" as="sourcePoint" />
             <mxPoint x="460" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-7" target="PNu_53gXIWGpvinKZIBv-11">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-7" target="PNu_53gXIWGpvinKZIBv-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="250" as="sourcePoint" />
             <mxPoint x="460" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-3">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="250" as="sourcePoint" />
             <mxPoint x="460" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-7">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="350" as="sourcePoint" />
             <mxPoint x="460" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-23" value="Toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="490" y="510" width="160" height="110" as="geometry" />
+        <mxCell id="PNu_53gXIWGpvinKZIBv-23" value="Toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="420" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-24" value="# toko_id&#xa;* Nama&#xa;* Tipe_toko_id &lt;FK&gt;&#xa;* alamat_toko_id &lt;FK&gt;&#xa;* karyawan_id  &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-23">
-          <mxGeometry y="30" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-25" value="Tipe Toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="260" y="530" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-26" value="# Tipe_Toko_id&#xa;* Jenis&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-25">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-27" value="alamat toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="490" y="660" width="160" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-28" value="# alamat_toko_id&#xa;* nomor jalan&#xa;* RT&#xa;* RW&#xa;* kecamatan&#xa;* kota&#xa;* provinsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-27">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-24" value="# toko_id&#xa;* Nama&#xa;* Tipe_toko_id &lt;FK&gt;&#xa;* alamat_toko_id &lt;FK&gt;&#xa;* karyawan_id  &lt;FK&gt;&#xa;* order_id&lt;FK&gt;&#xa;*produkToko_id&lt;FK&gt;&#xa;*transaksi_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-23" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-29" value="karyawan" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="510" width="160" height="110" as="geometry" />
+        <mxCell id="PNu_53gXIWGpvinKZIBv-25" value="Tipe Toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="820" y="210" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-30" value="# karyawan_id&#xa;* Nama&#xa;* departemen_id &lt;FK&gt;&#xa;* job_title_id &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-29">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-26" value="# Tipe_Toko_id&#xa;* Jenis&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-25" vertex="1">
+          <mxGeometry y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-27" value="alamat toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="120" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-28" value="# alamat_toko_id&#xa;* nomor jalan&#xa;* RT&#xa;* RW&#xa;* kecamatan&#xa;* kota&#xa;* provinsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-27" vertex="1">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-29" value="karyawan" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="420" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PNu_53gXIWGpvinKZIBv-30" value="# karyawan_id&#xa;* Nama&#xa;* departemen_id &lt;FK&gt;&#xa;* job_title_id &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-29" vertex="1">
           <mxGeometry y="30" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-31" value="departement" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="680" width="160" height="70" as="geometry" />
+        <mxCell id="PNu_53gXIWGpvinKZIBv-31" value="departement" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="590" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-32" value="# departement_id&#xa;* deskripsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-31">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-32" value="# departement_id&#xa;* deskripsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-31" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-33" value="job title" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="950" y="530" width="160" height="70" as="geometry" />
+        <mxCell id="PNu_53gXIWGpvinKZIBv-33" value="job title" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="440" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-34" value="# job_title_id&#xa;* deskripsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-33">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-34" value="# job_title_id&#xa;* deskripsi" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-33" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="PNu_53gXIWGpvinKZIBv-25">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-35" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="PNu_53gXIWGpvinKZIBv-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="650" as="sourcePoint" />
-            <mxPoint x="660" y="600" as="targetPoint" />
+            <mxPoint x="1150" y="560" as="sourcePoint" />
+            <mxPoint x="1200" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="PNu_53gXIWGpvinKZIBv-27">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-36" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="PNu_53gXIWGpvinKZIBv-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="650" as="sourcePoint" />
-            <mxPoint x="660" y="600" as="targetPoint" />
+            <mxPoint x="1150" y="560" as="sourcePoint" />
+            <mxPoint x="1200" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="PNu_53gXIWGpvinKZIBv-29">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-37" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="PNu_53gXIWGpvinKZIBv-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="650" as="sourcePoint" />
-            <mxPoint x="660" y="600" as="targetPoint" />
+            <mxPoint x="1150" y="560" as="sourcePoint" />
+            <mxPoint x="1200" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-29" target="PNu_53gXIWGpvinKZIBv-31">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-38" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-29" target="PNu_53gXIWGpvinKZIBv-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="650" as="sourcePoint" />
-            <mxPoint x="740" y="600" as="targetPoint" />
+            <mxPoint x="1230" y="560" as="sourcePoint" />
+            <mxPoint x="1280" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-29" target="PNu_53gXIWGpvinKZIBv-33">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-39" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-29" target="PNu_53gXIWGpvinKZIBv-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="650" as="sourcePoint" />
-            <mxPoint x="740" y="600" as="targetPoint" />
+            <mxPoint x="1460" y="-510" as="sourcePoint" />
+            <mxPoint x="1510" y="-560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-40" value="pembayaran" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-40" value="pembayaran" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="550" y="370" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-41" value="# pembayaran_id&#xa;0 tunai&#xa;0 kredit&#xa;0 transfer" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="PNu_53gXIWGpvinKZIBv-40">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-41" value="# pembayaran_id&#xa;0 tunai&#xa;0 kredit&#xa;debit" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-40" vertex="1">
           <mxGeometry y="30" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-40">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="350" as="sourcePoint" />
             <mxPoint x="430" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-43" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNu_53gXIWGpvinKZIBv-9" target="PNu_53gXIWGpvinKZIBv-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="350" as="sourcePoint" />
             <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-63" value="Logistik" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-64" value="#logistik_id&#xa;*Nama&#xa;* PO_id &lt;FK&gt;&#xa;*orderLine_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-63">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-63" target="PNu_53gXIWGpvinKZIBv-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="640" as="sourcePoint" />
+            <mxPoint x="530" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-66" value="OrderLine" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-67" value="#orderLine_id&#xa;*Nama&#xa;*tgl pengiriman&#xa;*quantitas&#xa;*produk&#xa;*order_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-66">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-63" target="OnalWxDzLqh3sbqXSAk8-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="770" as="sourcePoint" />
+            <mxPoint x="530" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-71" value="Order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="585" y="770" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-72" value="#order_id&#xa;*Nama&#xa;*tanggal pemesanan&#xa;*produk&#xa;*kuantitas" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-71">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-74" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-66" target="OnalWxDzLqh3sbqXSAk8-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-75" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="OnalWxDzLqh3sbqXSAk8-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="460" as="sourcePoint" />
+            <mxPoint x="1120" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-77" value="Transaksi" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="360" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-78" value="#transaksi_id&#xa;*Kasir&lt;FK&gt;&#xa;*tanggal&#xa;*namaProduk&lt;FK&gt;&#xa;*harga&lt;FK&gt;&#xa;*gerai&lt;FK&gt;&#xa;*pembayaran_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-77">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-79" value="ProdukToko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-80" value="# produkToko_id&#xa;* nama&#xa;* stok&#xa;* Harga" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-79">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-81" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="OnalWxDzLqh3sbqXSAk8-79" source="OnalWxDzLqh3sbqXSAk8-80" target="OnalWxDzLqh3sbqXSAk8-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="OnalWxDzLqh3sbqXSAk8-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="630" as="sourcePoint" />
+            <mxPoint x="930" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PNu_53gXIWGpvinKZIBv-23" target="OnalWxDzLqh3sbqXSAk8-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="630" as="sourcePoint" />
+            <mxPoint x="930" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-85" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-77" target="PNu_53gXIWGpvinKZIBv-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="630" as="sourcePoint" />
+            <mxPoint x="920" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-86" value="Laporan" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="185" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-87" value="#Laporan_id&#xa;* nama toko&lt;FK&gt;&#xa;* Stok&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-86">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-87" target="PNu_53gXIWGpvinKZIBv-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="480" as="sourcePoint" />
+            <mxPoint x="1220" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
