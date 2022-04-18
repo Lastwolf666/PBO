@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T01:47:52.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="sRZWFBPr7833E-_bCbuT" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T02:07:11.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="D8xJnv4zDPqWZQlqk1Ff" version="17.4.5" type="github">
   <diagram id="F71m29CB74n-U9nEli6I" name="Page-1">
     <mxGraphModel dx="845" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
         <mxCell id="PNu_53gXIWGpvinKZIBv-23" value="Toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="1030" y="420" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PNu_53gXIWGpvinKZIBv-24" value="# toko_id&#xa;* Nama&#xa;* Tipe_toko_id &lt;FK&gt;&#xa;* alamat_toko_id &lt;FK&gt;&#xa;* karyawan_id  &lt;FK&gt;&#xa;* order_id&lt;FK&gt;&#xa;*produkToko_id&lt;FK&gt;&#xa;*transaksi_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-23" vertex="1">
+        <mxCell id="PNu_53gXIWGpvinKZIBv-24" value="# toko_id&#xa;* Nama&#xa;* Tipe_toko_id &lt;FK&gt;&#xa;* alamat_toko_id &lt;FK&gt;&#xa;* karyawan_id  &lt;FK&gt;&#xa;* order_id&lt;FK&gt;&#xa;0 produkToko_id&lt;FK&gt;&#xa;0 transaksi_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="PNu_53gXIWGpvinKZIBv-23" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PNu_53gXIWGpvinKZIBv-25" value="Tipe Toko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -163,7 +163,7 @@
         <mxCell id="OnalWxDzLqh3sbqXSAk8-63" value="Logistik" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="310" y="560" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OnalWxDzLqh3sbqXSAk8-64" value="#logistik_id&#xa;*Nama&#xa;* PO_id &lt;FK&gt;&#xa;*orderLine_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-63">
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-64" value="#logistik_id&#xa;*Nama&#xa;* PO_id &lt;FK&gt;&#xa;*orderkirim_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-63">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OnalWxDzLqh3sbqXSAk8-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-63" target="PNu_53gXIWGpvinKZIBv-10">
@@ -172,11 +172,11 @@
             <mxPoint x="530" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OnalWxDzLqh3sbqXSAk8-66" value="OrderLine" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="560" y="560" width="160" height="130" as="geometry" />
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-66" value="OrderKirim" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="OnalWxDzLqh3sbqXSAk8-67" value="#orderLine_id&#xa;*Nama&#xa;*tgl pengiriman&#xa;*quantitas kirim&#xa;*produk&#xa;*order_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-66">
-          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-67" value="#orderkirim_id&#xa;*Nama &lt;FK&gt;&#xa;*tgl pengiriman&#xa;*quantitas kirim&#xa;*produk&#xa;*order_id&lt;FK&gt;&#xa;* harga &lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-66">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OnalWxDzLqh3sbqXSAk8-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-63" target="OnalWxDzLqh3sbqXSAk8-66">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -185,10 +185,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OnalWxDzLqh3sbqXSAk8-71" value="Order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="560" y="770" width="160" height="150" as="geometry" />
+          <mxGeometry x="560" y="770" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="OnalWxDzLqh3sbqXSAk8-72" value="#order_id&#xa;*Nama&#xa;*tanggal pemesanan&#xa;0 tanggal terima&#xa;*produk&#xa;*kuantitas&#xa;0 kuantitas terima" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-71">
-          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-72" value="#order_id&#xa;*Nama &lt;FK&gt;&#xa;*tanggal pemesanan&#xa;0 tanggal terima&#xa;*produk&#xa;*kuantitas&#xa;0 kuantitas terima&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-71">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="OnalWxDzLqh3sbqXSAk8-74" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OnalWxDzLqh3sbqXSAk8-66" target="OnalWxDzLqh3sbqXSAk8-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -208,7 +208,7 @@
         <mxCell id="OnalWxDzLqh3sbqXSAk8-77" value="Transaksi" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="790" y="360" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="OnalWxDzLqh3sbqXSAk8-78" value="#transaksi_id&#xa;*Kasir&lt;FK&gt;&#xa;*tanggal&#xa;*namaProduk&lt;FK&gt;&#xa;*harga&lt;FK&gt;&#xa;*gerai&lt;FK&gt;&#xa;*pembayaran_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-77">
+        <mxCell id="OnalWxDzLqh3sbqXSAk8-78" value="#transaksi_id&#xa;*Kasir&lt;FK&gt;&#xa;*tanggal&#xa;*namaProduk&lt;FK&gt;&#xa;*harga&lt;FK&gt;&#xa;*nama toko&lt;FK&gt;&#xa;*pembayaran_id&lt;FK&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OnalWxDzLqh3sbqXSAk8-77">
           <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="OnalWxDzLqh3sbqXSAk8-79" value="ProdukToko" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
